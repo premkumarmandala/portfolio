@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mandala Premkumar | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/loader.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <div id="loader" class="loader-wrapper">
+    <div class="loader-content">
+      <div class="loader-icon">
+        <div class="loader-circle"></div>
+        <div class="loader-circle"></div>
+        <div class="loader-logo">P</div>
+      </div>
+      <div class="loader-text">Loading My Portfolio</div>
+    </div>
+  </div>
+  <div class="bg-glow"></div>
+  <canvas id="bg-animation"></canvas>
+
+  <div class="content-wrapper">
+    <header>
+      <nav>
+        <div class="logo"
+          style="font-family: var(--font-heading); font-weight: 800; color: var(--primary); font-size: 1.2rem;">
+          PREMKUMAR</div>
+        <div class="menu-icon" id="menu-icon">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul>
+          <li><a href="#About">Home</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certifications">Certification</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Home Section -->
+      <section class="home" id="About">
+        <div class="hero-container">
+          <div class="hero-content">
+            <h1 class="glitch-text">Full-Stack Developer & <span>AI/ML Enthusiast</span></h1>
+            <p class="subtitle">Hello, I am <span class="highlight">Mandala Premkumar</span></p>
+            <p class="description">Computer Science student specializing in Full-stack Development and AI/ML. I build
+              scalable web architectures and intelligent data solutions.</p>
+            <div class="quote-box">
+              <p>“Forgetting what is behind and straining toward what is ahead.”</p>
+              <cite>— Philippians 3:13</cite>
+            </div>
+            <div class="social-links" style="display: flex; gap: 20px; margin-bottom: 30px;">
+              <a href="https://www.linkedin.com/in/premkumar-mandala-28a1a8199/" class="social-icon"
+                style="color: var(--primary); font-size: 1.5rem;"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/premkumarmandala" class="social-icon"
+                style="color: var(--primary); font-size: 1.5rem;"><i class="fab fa-github"></i></a>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=premkumarmandala123@gmail.com" target="_blank"
+                class="social-icon" style="color: var(--primary); font-size: 1.5rem;"><i
+                  class="fas fa-envelope"></i></a>
+            </div>
+
+            <div class="hero-cta" style="animation: slideUp 0.8s 1.2s both;">
+              <a href="assets/prem 5pdf.pdf" class="btn-primary">
+                <i class="fas fa-file-code"></i> View Resume
+              </a>
+              <a href="#projects" class="btn-secondary">Technical Projects</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="image-wrapper">
+              <img src="assets/homepage.jpg" alt="Mandala Premkumar">
+            </div>
+            <div class="image-bg-glow"></div>
+          </div>
+        </div>
+        <div class="scroll-indicator" style="animation: fadeIn 2s 2s both;">
+          <div class="mouse">
+            <div class="wheel"></div>
+          </div>
+          <span>Scroll To Explore</span>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education">
+        <h1>My Education</h1>
+        <div class="edu-container">
+          <div class="edu-box circle-card reveal-left delay-1">
+            <div class="edu-header">
+              <span class="edu-year">2022 - 2026</span>
+              <h2>B.Tech CSE</h2>
+            </div>
+            <p>Dr.Lankapalli Bullayya college of Engineering</p>
+            <p style="font-size: 0.75rem; opacity: 0.8;"><i class="fas fa-map-marker-alt"></i> Visakhapatnam, Andhra
+              Pradesh</p>
+            <div class="edu-stat"> Computer Science Engineering </div>
+            <div class="edu-stat">CGPA: 7.38</div>
+            <div class="edu-stat">Percentage: 73.8%</div>
+          </div>
+
+          <div class="edu-box circle-card reveal-up delay-2">
+            <div class="edu-header">
+              <span class="edu-year">2020 - 2022</span>
+              <h2>Intermediate (MPC)</h2>
+            </div>
+            <p>Nava Jeevana Christian Junior College</p>
+            <p style="font-size: 0.75rem; opacity: 0.8;"><i class="fas fa-map-marker-alt"></i> Bheemunipatnam,
+              Visakhapatnam</p>
+            <div class="edu-stat">Percentage: 75.8%</div>
+          </div>
+
+          <div class="edu-box circle-card reveal-right delay-3">
+            <div class="edu-header">
+              <span class="edu-year">2020</span>
+              <h2>SSC</h2>
+            </div>
+            <p>Zilla Parshith High School Challapeta</p>
+            <p style="font-size: 0.75rem; opacity: 0.8;"><i class="fas fa-map-marker-alt"></i> Mentada, Vizianagaram
+              District</p>
+            <div class="edu-stat">Percentage: 90.6%</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience">
+        <h1>My Internship <span>Experience</span></h1>
+
+        <!-- CSC India Internship Card -->
+        <div class="edu-box" style="width: 100%; max-width: 1100px;">
+          <div class="edu-header">
+            <span class="edu-year">21/05/2025 to 20/09/2025</span>
+            <h2>Full Stack Python Development</h2>
+          </div>
+          <p style="color: var(--primary); font-weight: 700; margin-bottom: 20px;">COUNCIL FOR SKILLS AND COMPETENCIES
+            (CSC INDIA)|AICTE</p>
+
+          <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
+            <div style="flex: 1; min-width: 300px;">
+
+              <ul class="skill-category ul" style="padding: 0; list-style: none;">
+                <li style="margin-bottom: 15px; display: flex; gap: 10px; color: var(--text-main);">
+                  <span style="color: var(--primary);">✦</span> Developed a project using Flask, Bootstrap, and jQuery.
+                </li>
+                <li style="margin-bottom: 15px; display: flex; gap: 10px; color: var(--text-main);">
+                  <span style="color: var(--primary);">✦</span> Built strong foundations in Python, JavaScript, HTML,
+                  and CSS.
+                </li>
+              </ul>
+            </div>
+
+            <div class="certificate" onclick="openModal('assets/internship_cert.jpg')"
+              style="width: 180px; padding: 10px; flex: 0 0 auto;">
+              <div class="cert-thumb" style="height: 130px; border-radius: 12px;">
+                <img src="assets/internship_cert.jpg" alt="Internship Certificate">
+              </div>
+              <p style="text-align: center; color: var(--text-muted); font-size: 0.7rem; margin-top: 8px;">Certificate
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- InternPe Internship Card -->
+        <div class="edu-box" style="width: 100%; max-width: 1100px; margin-bottom: 50px;">
+          <div class="edu-header">
+            <span class="edu-year">20/05/2024 to 16/06/2024</span>
+            <h2>AI/ML Internship</h2>
+          </div>
+          <p style="color: var(--primary); font-weight: 700; margin-bottom: 20px;">INTERNPE | JAIPUR, RAJASTHAN</p>
+
+          <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
+            <div style="flex: 1; min-width: 300px;">
+              <ul class="skill-category ul" style="padding: 0; list-style: none;">
+                <li style="margin-bottom: 15px; display: flex; gap: 10px; color: var(--text-main);">
+                  <span style="color: var(--primary);">✦</span> Completed 4-week intensive program in AI and Machine
+                  Learning.
+                </li>
+                <li style="margin-bottom: 15px; display: flex; gap: 10px; color: var(--text-main);">
+                  <span style="color: var(--primary);">✦</span> Worked on real-world datasets and model implementation.
+                </li>
+              </ul>
+            </div>
+
+            <div style="display: flex; gap: 15px; flex: 0 0 auto;">
+              <!-- Offer Letter -->
+              <div class="certificate portrait" onclick="openModal('assets/internpe_offer.jpg')"
+                style="width: 160px; padding: 10px;">
+                <div class="cert-thumb" style="height: 220px; border-radius: 12px;">
+                  <img src="assets/internpe_offer.jpg" alt="Offer Letter">
+                </div>
+                <p style="text-align: center; color: var(--text-muted); font-size: 0.7rem; margin-top: 8px;">Offer
+                  Letter</p>
+              </div>
+              <!-- Completion Letter -->
+              <div class="certificate portrait" onclick="openModal('assets/internpe_completion.jpg')"
+                style="width: 160px; padding: 10px;">
+                <div class="cert-thumb" style="height: 220px; border-radius: 12px;">
+                  <img src="assets/internpe_completion.jpg" alt="Completion Letter">
+                </div>
+                <p style="text-align: center; color: var(--text-muted); font-size: 0.7rem; margin-top: 8px;">Completion
+                  Letter</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <h1>Technical <span>Projects</span></h1>
+        <div class="project-grid">
+
+          <!-- ResQ Platform -->
+          <article class="project-card">
+            <div style="overflow: hidden; height: 200px;">
+              <img src="assets/resq_platform.png" alt="ResQ - Emergency Rescue & Routing Platform" class="project-card-image">
+            </div>
+            <div class="project-card-content">
+              <div class="project-card-header">
+                <div>
+                  <span class="edu-year" style="margin-bottom: 8px; display: inline-block; font-size: 0.7rem;">Final Semester Project</span>
+                  <h2>ResQ Call</h2>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/premkumarmandala/ResQ-call.git" target="_blank" title="View Source Code On GitHub"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+              <p>An intelligent, full-stack emergency response system using AI symptom analysis to dynamically dispatch ambulances and route patients to optimal hospitals.</p>
+              <div class="skill-tags">
+                <span>Python (Flask)</span> <span>MySQL</span> <span>Gemini API</span> <span>Google Maps API</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- AI News Summarizer -->
+          <article class="project-card">
+            <div style="overflow: hidden; height: 200px;">
+              <img src="assets/news_summarizer.png" alt="AI News Summarizer" class="project-card-image">
+            </div>
+            <div class="project-card-content">
+              <div class="project-card-header">
+                <div>
+                  <span class="edu-year"
+                    style="margin-bottom: 8px; display: inline-block; font-size: 0.7rem;">Featured</span>
+                  <h2>AI News Summarizer</h2>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/premkumarmandala/news-summarizer" target="_blank"><i
+                      class="fab fa-github"></i></a>
+                  <a href="https://premkumarmandala.github.io/news-summarizer/" target="_blank"><i
+                      class="fas fa-external-link-alt"></i></a>
+                </div>
+              </div>
+              <p>Intelligent platform leveraging Gemini Pro and Ollama for automated news summarization and
+                categorization.</p>
+              <div class="skill-tags">
+                <span>React 19</span> <span>TypeScript</span> <span>Gemini API</span> <span>Material UI</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Portfolio Engine -->
+          <article class="project-card">
+            <div style="overflow: hidden; height: 200px;">
+              <img src="assets/portfolio.png" alt="Portfolio Engine" class="project-card-image">
+            </div>
+            <div class="project-card-content">
+              <div class="project-card-header">
+                <h2>Portfolio Engine</h2>
+                <div class="project-links">
+                  <a href="#"><i class="fab fa-github"></i></a>
+                  <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+              </div>
+              <p>Architected a high-performance personal portfolio using modern web standards and smooth state
+                transitions.</p>
+              <div class="skill-tags">
+                <span>HTML5</span> <span>Advanced CSS3</span> <span>Vanilla JS</span> <span>ScrollReveal</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- BookBazaar: Peer-to-Peer Book Commerce Platform -->
+          <article class="project-card">
+            <div style="overflow: hidden; height: 200px;">
+              <img src="assets/bookbazaar.png" alt="BookBazaar Platform" class="project-card-image">
+            </div>
+            <div class="project-card-content">
+              <div class="project-card-header">
+                <h2>BookBazaar: P2P Bookstore</h2>
+                <div class="project-links">
+                  <a href="https://github.com/premkumarmandala/online-books-selling-plate-form.git" target="_blank"
+                    title="View Source Code On GitHub"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+              <p>Specialized P2P ecosystem with a dual-layered admin approval workflow, ensuring high-quality listings
+                for independent book sellers and avid readers.</p>
+              <div class="skill-tags">
+                <span>Python (Flask)</span> <span>SQLite</span> <span>ES6+ JS</span> <span>LocalStorage</span>
+                <span>Role-Based Auth</span>
+              </div>
+            </div>
+          </article>
+          <!-- SmartExpense: Personal Finance Management -->
+          <article class="project-card">
+            <div style="overflow: hidden; height: 200px;">
+              <img src="assets/smartexpense.png" alt="SmartExpense Dashboard" class="project-card-image">
+            </div>
+            <div class="project-card-content">
+              <div class="project-card-header">
+                <h2>SmartExpense Finance</h2>
+                <div class="project-links">
+                  <a href="https://github.com/premkumarmandala/expense-planning.git" target="_blank"
+                    title="View Source Code On GitHub"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+              <p>Comprehensive expense tracker with real-time analytics, recurring budget management, and secure
+                financial reporting using CSV/PDF exports.</p>
+              <div class="skill-tags">
+                <span>Flask 3.0</span> <span>SQLAlchemy</span> <span>SQLite</span> <span>Chart.js</span>
+                <span>Relational DB</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <h1>Technical <span>Expertise</span></h1>
+        <div class="skills-container">
+          <div class="skill-category circle-card reveal-left delay-1">
+            <h3>Programming</h3>
+            <ul>
+              <li><i class="fab fa-python"></i> Python</li>
+              <li><i class="fab fa-java"></i> Java</li>
+              <li><i class="fas fa-code"></i> C Language</li>
+              <li><i class="fab fa-js"></i> JavaScript</li>
+            </ul>
+          </div>
+          <div class="skill-category circle-card reveal-up delay-2">
+            <h3>Web & Frameworks</h3>
+            <ul>
+              <li><i class="fab fa-react"></i> React</li>
+              <li><i class="fas fa-server"></i> FastAPI / Flask</li>
+              <li><i class="fab fa-html5"></i> HTML5 & CSS3</li>
+              <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+            </ul>
+          </div>
+          <div class="skill-category circle-card reveal-right delay-3">
+            <h3>CS Fundamentals</h3>
+            <ul>
+              <li><i class="fas fa-project-diagram"></i> DSA Basics</li>
+              <li><i class="fas fa-cubes"></i> OOPs Concepts</li>
+              <li><i class="fas fa-database"></i> DBMS</li>
+            </ul>
+          </div>
+          <div class="skill-category circle-card reveal-left delay-4">
+            <h3>Platforms & Tools</h3>
+            <ul>
+              <li><i class="fab fa-git-alt"></i> Git & GitHub</li>
+              <li><i class="fas fa-terminal"></i> Linux / CLI (Basics)</li>
+              <li><i class="fas fa-laptop-code"></i> VS Code</li>
+            </ul>
+          </div>
+          <div class="skill-category circle-card reveal-up delay-5">
+            <h3>Backend & DB</h3>
+            <ul>
+              <li><i class="fas fa-table"></i> MySQL / SQLite</li>
+              <li><i class="fas fa-search"></i> SQL Optimization</li>
+            </ul>
+          </div>
+          <div class="skill-category circle-card reveal-right delay-6">
+            <h3>Productivity</h3>
+            <ul>
+              <li><i class="fas fa-file-word"></i> MS Word / PPT</li>
+              <li><i class="fas fa-file-excel"></i> MS Excel</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications Section -->
+      <section id="certifications">
+        <h1>Professional <span>Certifications</span></h1>
+
+        <h2
+          style="color: var(--text-muted); font-size: 1.2rem; margin-bottom: 30px; border-left: 4px solid var(--primary); padding-left: 15px;">
+          Infosys Springboard</h2>
+        <div class="certifications-container">
+          <div class="certificate" onclick="openModal('assets/infosys_java_cert.jpg')">
+            <div class="cert-thumb">
+              <img src="assets/infosys_java_cert.jpg" alt="Classes, Objects, & Packages">
+            </div>
+            <h3>Classes, Objects, & Packages</h3>
+            <p>Infosys Springboard | 2024</p>
+          </div>
+          <div class="certificate" onclick="openModal('assets/infosys_listening_cert.jpg')">
+            <div class="cert-thumb">
+              <img src="assets/infosys_listening_cert.jpg" alt="Active Listening Skills">
+            </div>
+            <h3>Active Listening Skills for Students</h3>
+            <p>Infosys Springboard | 2024</p>
+          </div>
+          <div class="certificate" onclick="openModal('assets/infosys_ml_cert.jpg')">
+            <div class="cert-thumb">
+              <img src="assets/infosys_ml_cert.jpg" alt="Machine Learning">
+            </div>
+            <h3>Introduction to Machine Learning</h3>
+            <p>Infosys Springboard | 2024</p>
+          </div>
+        </div>
+
+        <h2
+          style="color: var(--text-muted); font-size: 1.2rem; margin-top: 50px; margin-bottom: 30px; border-left: 4px solid var(--primary); padding-left: 15px;">
+          TCS iON</h2>
+        <div class="certifications-container">
+          <div class="certificate" onclick="openModal('assets/tcs_communication_cert.jpg')">
+            <div class="cert-thumb">
+              <img src="assets/tcs_communication_cert.jpg" alt="Communication Skills">
+            </div>
+            <h3>Communication Skills</h3>
+            <p>TCS iON | Jan 2023</p>
+          </div>
+          <div class="certificate" onclick="openModal('assets/tcs_interview_cert.jpg')">
+            <div class="cert-thumb">
+              <img src="assets/tcs_interview_cert.jpg" alt="Interview Skills">
+            </div>
+            <h3>Interview Skills</h3>
+            <p>TCS iON | Feb 2023</p>
+          </div>
+        </div>
+
+        <h2
+          style="color: var(--text-muted); font-size: 1.2rem; margin-top: 50px; margin-bottom: 30px; border-left: 4px solid var(--primary); padding-left: 15px;">
+          DigiSoft AI</h2>
+        <div class="certifications-container">
+          <div class="certificate portrait" onclick="openModal('assets/digisoft_java_cert.jpg')">
+            <div class="cert-thumb">
+              <img src="assets/digisoft_java_cert.jpg" alt="Core and Advanced Java">
+            </div>
+            <h3>Core and Advanced Java</h3>
+            <p>DigiSoft AI | May 2025</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Thank you</h2>
+        <h1>Contact <span>Me</span></h1>
+        <div class="edu-container" style="max-width: 1000px; margin: 0 auto;">
+          <div class="contact-box"
+            style="flex: 1; background: var(--bg-card); padding: 40px; border-radius: 24px; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; border: 1px solid rgba(255, 255, 255, 0.05); backdrop-filter: blur(20px);">
+            <i class="fas fa-paper-plane" style="font-size: 3rem; color: var(--primary); margin-bottom: 20px;"></i>
+            <h3 style="margin-bottom: 15px; color: #fff;">Drop a Message</h3>
+            <p
+              style="color: var(--text-muted); margin-bottom: 30px; max-width: 400px; margin-left: auto; margin-right: auto;">
+              I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.
+            </p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfBT3y9-2iHspjQmCX2wpJx7e8BvVGnVP1NNgoVEdonfkmtww/viewform?usp=publish-editor"
+              target="_blank" class="btn-primary"
+              style="width: 100%; max-width: 300px; text-decoration: none; justify-content: center;">
+              <span>Fill Contact Form</span>
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="skill-category" style="margin-top: 0;">
+            <h3>Let's Connect</h3>
+            <p><i class="fas fa-envelope"></i> <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=premkumarmandala123@gmail.com" target="_blank"
+                style="color: inherit; text-decoration: none;">premkumarmandala123@gmail.com</a></p>
+            <p><i class="fas fa-phone"></i> +91-9491623992</p>
+            <div class="social-links" style="margin-top: 20px;">
+              <a href="https://github.com/premkumarmandala" class="social-icon"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/premkumar-mandala-28a1a8199/" class="social-icon"><i
+                  class="fab fa-linkedin"></i></a>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=premkumarmandala123@gmail.com" target="_blank"
+                class="social-icon"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Certificate Modal -->
+  <div id="certModal" class="modal">
+    <span class="close-modal" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="fullCertImage">
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+
+</html>
