@@ -1158,7 +1158,7 @@ section.active-reveal {
 }
 
 @media (max-width: 480px) {
-  .edu-box {
+  .circle-card {
     width: 280px;
     height: 280px;
     padding: 30px;
