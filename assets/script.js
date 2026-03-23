@@ -20,7 +20,7 @@ window.addEventListener('load', () => {
                 initScrollReveal();
             }, 800);
         }
-    }, 2000);
+    }, 300); // Reduced delay before hiding loader
 });
 
 // Particle class
